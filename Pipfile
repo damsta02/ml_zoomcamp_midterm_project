@@ -10,6 +10,10 @@ xgboost = "*"
 pandas = "*"
 numpy = "*"
 scikit-learn = "*"
+kagglehub = "*"
+matplotlib = "*"
+seaborn = "*"
+ipykernel = "*"
 
 [dev-packages]
 
