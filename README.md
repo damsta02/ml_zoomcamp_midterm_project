@@ -109,6 +109,8 @@ Testing the model running inside the Docker container can be done using Postman 
 }
 ```
 
+![](model_testing.png)
+
 ---
 
 ## Final Model
