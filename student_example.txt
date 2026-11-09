@@ -1,0 +1,13 @@
+student={"gender": "female",
+ "age": 31.0,
+ "academic_pressure": 4.0,
+ "cgpa": 5.79,
+ "study_satisfaction": 4.0,
+ "sleep_duration": "more_than_8_hours",
+ "dietary_habits": "moderate",
+ "degree": "m.pharm",
+ "have_you_ever_had_suicidal_thoughts_?": "yes",
+ "work/study_hours": 6.0,
+ "financial_stress": 5.0,
+ "family_history_of_mental_illness": "no",
+ "depression": 1}
