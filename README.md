@@ -83,6 +83,32 @@ docker run -it -p 9696:9696 depression-prediction
 
 The application will run inside the Docker container and expose port `9696`.
 
+### 3. Testing the Model with Postman
+
+Testing the model running inside the Docker container can be done using Postman by following these steps:
+
+1. Create a **POST** request.
+2. Enter the URL: `http://localhost:9696/predict`
+3. In the **Body** tab, select `raw` and set the format to `JSON`.
+4. Pass the following JSON payload:
+
+```json
+{
+  "gender": "female",
+  "age": 31.0,
+  "academic_pressure": 4.0,
+  "cgpa": 5.79,
+  "study_satisfaction": 4.0,
+  "sleep_duration": "more_than_8_hours",
+  "dietary_habits": "moderate",
+  "degree": "m.pharm",
+  "have_you_ever_had_suicidal_thoughts_?": "yes",
+  "work/study_hours": 6.0,
+  "financial_stress": 5.0,
+  "family_history_of_mental_illness": "no"
+}
+```
+
 ---
 
 ## Final Model
